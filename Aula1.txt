@@ -1,0 +1,22 @@
+   23  mkdir LabGit
+   24  cd LabGit
+   25  git init
+   26  code .
+   27  git status
+   28  git add lab.html
+   29  git status
+   30  git commit -m "Adicionando arquivo lab.html"
+   31  git status
+   32  git log
+   33  git status
+   34  git diff lab.html
+   35  git commit -a -m "Atualizando titulo e adicionando topicos"
+   36  git status
+   37  git log
+   38  git remote add origin https://github.com/Victor0123/LabGit.git\n
+   39  git branch -M main
+   40  git push -u origin main
+   41  git log
+   42  git pull
+   43  git log
+   44  history
